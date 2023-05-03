@@ -12,6 +12,7 @@ public class Rental
         Movie=movie;
         Customer=customer;
         Id=id;
+        movie.setAvailable(false);
     }
 
     public int getId() {
@@ -38,5 +39,5 @@ public class Rental
         ReturnDate = returnDate;
     }
 
-    //Double CalculateLateFee;
+    //Double CalculateLateFee;         //CHECK
 }

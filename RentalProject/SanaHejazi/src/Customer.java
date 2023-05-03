@@ -16,7 +16,9 @@ public class Customer
         this.email=email;
         this.phone=phone;
         this.address=address;
+        this.Id=Id;
     }
+    Rental Rental;
 
     public int getId() {
         return Id;
@@ -38,8 +40,15 @@ public class Customer
         return phone;
     }
 
-    public List<Rental> getRentals() {
-        return rentals;
-    }
+    //public List<Rental> getRentals()
+    //{
+    //    for (List<Rental> sana: Rental.
+    //        )
+    //    {
+    //       return sana;
+
+    // }
+    // return null;
+    //}
 }
 

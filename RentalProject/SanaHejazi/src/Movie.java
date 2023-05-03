@@ -1,4 +1,5 @@
 import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Movie
 {
@@ -9,6 +10,8 @@ public class Movie
     private String Cast;
     private Data RelaseData;
     private Boolean IsAvailable;
+
+
     public Movie(String title,String genre,String director,String cast,Data data,int id)
     {
         Title=title;
