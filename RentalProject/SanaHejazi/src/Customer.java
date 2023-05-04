@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Customer
 {
-    String name;
-    String email;
-    String phone;
-    String address;
-    int Id;
+    private String name;
+    private String email;
+    private String phone;
+    private String address;
+    private int Id;
 
     List<Rental> rentals=new ArrayList<Rental>();
     public Customer(String name,String email,String phone,String address,int Id)
@@ -18,7 +18,7 @@ public class Customer
         this.address=address;
         this.Id=Id;
     }
-    Rental Rental;
+
 
     public int getId() {
         return Id;
@@ -40,15 +40,9 @@ public class Customer
         return phone;
     }
 
-    //public List<Rental> getRentals()
-    //{
-    //    for (List<Rental> sana: Rental.
-    //        )
-    //    {
-    //       return sana;
-
-    // }
-    // return null;
-    //}
+    public List<Rental> getRentals()
+    {
+        return rentals;
+    }
 }
 

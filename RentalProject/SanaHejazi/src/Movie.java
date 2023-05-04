@@ -1,5 +1,4 @@
 import javax.xml.crypto.Data;
-import java.util.Date;
 
 public class Movie
 {
@@ -11,6 +10,8 @@ public class Movie
     private Data RelaseData;
     private Boolean IsAvailable;
 
+    double fee;
+
 
     public Movie(String title,String genre,String director,String cast,Data data,int id)
     {
@@ -20,6 +21,10 @@ public class Movie
         Cast=cast;
         RelaseData=data;
         Id=id;
+    }
+
+    public void setFee(double fee) {
+        this.fee = fee;
     }
 
     public int getId() {

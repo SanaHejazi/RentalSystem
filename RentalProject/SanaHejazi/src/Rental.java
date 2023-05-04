@@ -2,11 +2,11 @@ import java.util.Date;
 
 public class Rental
 {
-    int Id;
-    Movie Movie;
-    Customer Customer;
-    Date RentalDate;
-    Date ReturnDate;
+    private int Id;
+    private Movie Movie;
+    private Customer Customer;
+    private Date RentalDate;
+    private Date ReturnDate;
     public Rental(Movie movie,Customer customer,int id)
     {
         Movie=movie;
@@ -38,6 +38,13 @@ public class Rental
     public void setReturnDate(Date returnDate) {
         ReturnDate = returnDate;
     }
-
-    //Double CalculateLateFee;         //CHECK
+    public void setRentalDate(Date rentalDate) {
+        RentalDate=rentalDate;
+    }
+    Double CalculateLateFee()
+    {
+        int t;
+        t=RentalDate.getDay()-ReturnDate.getDay();
+        return t*(getMovie().fee);
+    }
 }

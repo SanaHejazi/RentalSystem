@@ -1,5 +1,6 @@
 import javax.xml.crypto.Data;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class RentalStore
@@ -30,7 +31,7 @@ public class RentalStore
         return null;
     }
 
-    public void rentMovie(Movie movie,Customer customer,int i)
+    public void rentMovie(Movie movie, Customer customer, int i)
     {
         Rental Rental=new Rental(movie,customer,i);
     }
@@ -47,7 +48,7 @@ public class RentalStore
     {
           for (int i=0;i<customers.size();i++)
           {
-              if (Id==customers.get(i).Id)
+              if (Id==customers.get(i).getId())
               {
                   return customers.get(i);
               }
