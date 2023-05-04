@@ -12,7 +12,7 @@ public class Game extends Item
     ArrayList<String> platforms=new ArrayList<String>();
 
 
-    public Game(int id, String title, String genre, Data relaseDate,String publisherCompany,ArrayList<String> platforms)
+    public Game(int id, String title, String genre, Date relaseDate,String publisherCompany,ArrayList<String> platforms)
     {
         super(id, title, genre, (Date) relaseDate);
         PublisherCompany=publisherCompany;
