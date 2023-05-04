@@ -1,4 +1,5 @@
 import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Movie extends Item
 {
@@ -7,9 +8,9 @@ public class Movie extends Item
     double fee;
 
 
-    public Movie(String title,String genre,String director,Data relaseData,String cast,int id)
+    public Movie(String title, String genre, String director, Date relaseDate, String cast, int id)
     {
-        super(id,title,genre,relaseData);
+        super(id,title,genre,relaseDate);
         Director=director;
         Cast=cast;
     }

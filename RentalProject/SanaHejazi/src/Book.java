@@ -1,12 +1,13 @@
 import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Book extends Item
 {
 
     private String publisher;
     private String author;
-    public Book(int id, String title, String genre, Data relaseData, String publisher,String author) {
-        super(id, title, genre, relaseData);
+    public Book(int id, String title, String genre, Data relaseDate, String publisher,String author) {
+        super(id, title, genre, (Date) relaseDate);
         this.author=author;
         this.publisher=publisher;
     }

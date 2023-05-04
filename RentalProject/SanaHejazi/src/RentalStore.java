@@ -1,4 +1,3 @@
-import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -6,28 +5,33 @@ import java.util.List;
 public class RentalStore
 {
 
-    List<Movie>movies;
-    List<Customer>customers;
+    List<Movie> movies=new ArrayList<Movie>();
+    List<Customer> customers;
 
 
-    public  void register(String name,String email,String phone,String address,int Id)
-    {
-        Customer customer=new Customer(name, email, phone, address, Id);
-        customers=new ArrayList<Customer>();
+    public void register(String name, String email, String phone, String address, int Id) {
+        Customer customer = new Customer(name, email, phone, address, Id);
+        customers = new ArrayList<Customer>();
         customers.add(customer);
     }
-    public void removeMovie()
-    {
-        movies.remove(movies);
+
+    public void removeMovie(Movie movie) {
+        movies.remove(movie);
     }
+
 
     public List<Movie> getavailableMovies()
     {
-        for (Movie movies:movies
-             )
+        List<Movie> availableMovies=new ArrayList<>();
+        for(int a=0;a<movies.size();a++)
         {
-           return (List<Movie>) movies;
+            if (movies.get(a).isAvailable()==true)
+            {
+                availableMovies.add(movies.get(a));
+                return availableMovies;
+            }
         }
+
         return null;
     }
 
@@ -36,11 +40,11 @@ public class RentalStore
         Rental Rental=new Rental(movie,customer,i);
     }
 
-    public void addMovie(String title, String genre, String director, String cast, Data data, int id)
+    public void addMovie(String title, String genre, String director, String cast, Date date, int id)
     {
 
-        Movie movie=new Movie(title, genre, director, data, cast, id);
-        movies=new ArrayList<Movie>();
+        Movie movie=new Movie(title, genre, director, date, cast, id);
+
         movies.add(movie);
 
     }

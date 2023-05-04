@@ -45,24 +45,5 @@ public class Rental
         return Customer;
     }
 
-    public Date getRentalDate() {
-        return RentalDate;
-    }
 
-    public Date getReturnDate() {
-        return ReturnDate;
-    }
-
-    public void setReturnDate(Date returnDate) {
-        ReturnDate = returnDate;
-    }
-    public void setRentalDate(Date rentalDate) {
-        RentalDate=rentalDate;
-    }
-    Double CalculateLateFee()
-    {
-        int t;
-        t=RentalDate.getDay()-ReturnDate.getDay();
-        return t*(getMovie().fee);
-    }
 }
