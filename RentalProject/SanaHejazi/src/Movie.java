@@ -1,40 +1,22 @@
 import javax.xml.crypto.Data;
 
-public class Movie
+public class Movie extends Item
 {
-    private int Id;
-    private String Title;
-    private String Genre;
     private String Director;
     private String Cast;
-    private Data RelaseData;
-    private Boolean IsAvailable;
-
     double fee;
 
 
-    public Movie(String title,String genre,String director,String cast,Data data,int id)
+    public Movie(String title,String genre,String director,Data relaseData,String cast,int id)
     {
-        Title=title;
-        Genre=genre;
+        super(id,title,genre,relaseData);
         Director=director;
         Cast=cast;
-        RelaseData=data;
-        Id=id;
     }
 
     public void setFee(double fee) {
         this.fee = fee;
     }
-
-    public int getId() {
-        return Id;
-    }
-
-    public String getTitle() {
-        return Title;
-    }
-
     public String getCast() {
         return Cast;
     }
@@ -43,20 +25,15 @@ public class Movie
         return Director;
     }
 
-    public String getGenre() {
-        return Genre;
-    }
-
-    public Data getRelaseData() {
-        return RelaseData;
-    }
-
-    public boolean isAvailable()
+    public void rentMovie(Movie movie, Customer customer, int i)
     {
-        return IsAvailable;
+        Rental Rental=new Rental(movie,customer,i);
     }
+     public void returnMovie()
+     {
+         setAvailable(true);
 
-    public void setAvailable(Boolean available) {
-        IsAvailable = available;
-    }
+     }
+
+
 }

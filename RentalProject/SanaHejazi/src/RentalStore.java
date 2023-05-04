@@ -39,7 +39,7 @@ public class RentalStore
     public void addMovie(String title, String genre, String director, String cast, Data data, int id)
     {
 
-        Movie movie=new Movie(title, genre, director, cast, data, id);
+        Movie movie=new Movie(title, genre, director, data, cast, id);
         movies=new ArrayList<Movie>();
         movies.add(movie);
 

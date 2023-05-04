@@ -4,6 +4,8 @@ public class Rental
 {
     private int Id;
     private Movie Movie;
+    private Game Game;
+    private Book Book;
     private Customer Customer;
     private Date RentalDate;
     private Date ReturnDate;
@@ -13,6 +15,22 @@ public class Rental
         Customer=customer;
         Id=id;
         movie.setAvailable(false);
+    }
+
+    public Rental(Book book,Customer customer,int id)
+    {
+        Book=book;
+        Customer=customer;
+        Id=id;
+        book.setAvailable(false);
+    }
+
+    public Rental(Game game, Customer customer, int id)
+    {
+       Game=game;
+        Customer=customer;
+        Id=id;
+        game.setAvailable(false);
     }
 
     public int getId() {
