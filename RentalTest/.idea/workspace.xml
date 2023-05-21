@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61019dc5-c1fd-498f-84ad-31779ede06d1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RentalProject/SanaHejazi/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RentalProject/SanaHejazi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/Rental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RentalProject/SanaHejazi/src/RentalStore.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Q76d0QouDAepRB0BpgJJptwIBQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Intellij DEA/RentalClone/RentalSystem/RentalProject/SanaHejazi"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61019dc5-c1fd-498f-84ad-31779ede06d1" name="Changes" comment="" />
+      <created>1684692355411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684692355411</updated>
+    </task>
+    <servers />
+  </component>
+</project>
