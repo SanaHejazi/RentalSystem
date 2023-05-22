@@ -93,9 +93,12 @@ public class RentalStore
         Rental Rental=new Rental(book,customer,i);
     }
 
+
     public void rentitem(Item item,Customer customer)
     {
-        Rental rentals=new Rental(item,customer);
+        //customer.rentals=new ArrayList<>();
+        Rental rental=new Rental(item,customer);
+        customer.rentals.add(item);
     }
 
     public void addMovie(String title, String genre, String director, String cast, Date date, int id,boolean isAvailable)

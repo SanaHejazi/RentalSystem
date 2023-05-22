@@ -10,7 +10,7 @@ public class Customer
     private String address;
     private int Id;
 
-    List<Rental> rentals=new ArrayList<Rental>();
+    List<Item> rentals=new ArrayList<Item>();
     public Customer(String name,String email,String phone,String address,int Id)
     {
         this.name=name;
@@ -24,6 +24,7 @@ public class Customer
     public int getId() {
         return Id;
     }
+
 
     public String getAddress() {
         return address;
@@ -41,7 +42,7 @@ public class Customer
         return phone;
     }
 
-    public List<Rental> getRentals()
+    public List<Item> getRentals()
     {
         return rentals;
     }

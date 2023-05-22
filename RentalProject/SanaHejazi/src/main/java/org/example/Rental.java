@@ -39,6 +39,7 @@ public class Rental
     {
         this.item=item;
         Customer=customer;
+
     }
 
     public int getId() {
