@@ -96,7 +96,7 @@ public class RentalStore
 
     public void rentitem(Item item,Customer customer)
     {
-        //customer.rentals=new ArrayList<>();
+
         Rental rental=new Rental(item,customer);
         customer.rentals.add(item);
     }
