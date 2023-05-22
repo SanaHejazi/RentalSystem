@@ -1,0 +1,344 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "Title": "The Secret Garden",
+      "Genre": "Fiction",
+      "RelaseDate": "2022-03-15",
+      "IsAvailable": true,
+      "author": "Alice Thompson",
+      "publisher": "Penguin Books",
+      "bookCover": "https://example.com/book1.jpg"
+    },
+    {
+      "id": 2,
+      "Title": "The Alchemist",
+      "Genre": "Fantasy",
+      "RelaseDate": "2021-07-01",
+      "IsAvailable": true,  
+      "author": "Benjamin Martin",
+      "publisher": "HarperCollins",
+      "bookCover": "https://example.com/book2.jpg"
+    },
+    {
+      "id": 3,
+      "Title": "Pride and Prejudice",
+      "Genre": "Romance",
+      "RelaseDate": "1813-01-28",
+      "IsAvailable": false,
+      "author": "Jane Austen",
+      "publisher": "Thomas Egerton",
+      "bookCover": "https://example.com/book3.jpg"
+
+    },
+    {
+      "id": 4,
+      "Title": "To Kill a Mockingbird",
+      "Genre": "Classic",
+      "RelaseDate": "1960-07-11",
+      "IsAvailable": true,
+      "author": "Harper Lee",
+      "publisher": "J. B. Lippincott & Co.",
+      "bookCover": "https://example.com/book4.jpg"
+    },
+    {
+      "id": 5,
+      "Title": "1984",
+      "Genre": "Dystopian",
+      "RelaseDate": "1949-06-08",
+      "IsAvailable": true,
+      "author": "George Orwell",
+      "publisher": "Secker & Warburg",
+      "bookCover": "https://example.com/book5.jpg"
+
+    },
+    {
+      "id": 6,
+      "Title": "The Great Gatsby",
+      "Genre": "Fiction",
+      "RelaseDate": "1925-04-10",
+      "IsAvailable": true,
+      "author": "F. Scott Fitzgerald",
+      "publisher": "Charles Scribner's Sons",
+      "bookCover": "https://example.com/book6.jpg"
+
+    },
+    {
+      "id": 7,
+      "Title": "Harry Potter and the Philosopher's Stone",
+      "Genre": "Fantasy",
+      "RelaseDate": "1997-06-26",
+      "IsAvailable": true,
+      "author": "J.K. Rowling",
+      "publisher": "Bloomsbury Publishing",
+      "bookCover": "https://example.com/book7.jpg"
+
+    },
+    {
+      "id": 8,
+      "Title": "The Hobbit",
+      "Genre": "Fantasy",
+      "RelaseDate": "1937-09-21",
+      "IsAvailable": true,
+      "author": "J.R.R. Tolkien",
+      "publisher": "George Allen & Unwin",
+      "bookCover": "https://example.com/book8.jpg"
+
+    },
+    {
+      "id": 9,
+      "Title": "The Catcher in the Rye",
+      "Genre": "Coming-of-age",
+      "RelaseDate": "1951-07-16",
+      "IsAvailable": false,
+      "author": "J.D. Salinger",
+      "publisher": "Little, Brown and Company",
+      "bookCover": "https://example.com/book9.jpg"
+
+    },
+    {
+      "id": 10,
+      "Title": "The Chronicles of Narnia: The Lion, the Witch, and the Wardrobe",
+      "Genre": "Fantasy",
+      "RelaseDate": "1950-10-16",
+      "IsAvailable": true,
+      "author": "C.S. Lewis",
+      "publisher": "Geoffrey Bles",
+      "bookCover": "https://example.com/book10.jpg"
+
+    }
+  ],
+
+  "games": [
+    {
+      "id": 1,
+      "Title": "The Legend of Zelda: Breath of the Wild",
+      "Genre": "Action-Adventure",
+      "RelaseDate": "2017-03-03",
+      "IsAvailable": true,
+      "Director": "Shigeru Miyamoto",
+      "gameRate": 9,
+      "aboutGame": "Embark on an epic adventure as Link",
+      "PublisherCompany": "Nintendo"
+    },
+    {
+      "id": 2,
+      "Title": "Red Dead Redemption 2",
+      "Genre": "Action-Adventure",
+      "RelaseDate": "2018-10-26",
+      "IsAvailable": true,
+      "Director": "Dan Houser",
+      "gameRate": 9.5,
+      "aboutGame": "Experience life in the Wild West",
+      "PublisherCompany": "Rockstar Games"
+    },
+    {
+      "id": 3,
+      "Title": "The Witcher 3: Wild Hunt",
+      "Genre": "Action-RPG",
+      "RelaseDate": "2015-05-19",
+      "IsAvailable": true,
+      "Director": "Konrad Tomaszkiewicz",
+      "gameRate": 9.8,
+      "aboutGame": "Embark on a monster-hunting adventure as Geralt of Rivia",
+      "PublisherCompany": "CD Projekt"
+    },
+    {
+      "id": 4,
+      "Title": "Super Mario Odyssey",
+      "Genre": "Platformer",
+      "RelaseDate": "2017-10-27",
+      "IsAvailable": true,
+      "Director": "Kenta Motokura",
+      "gameRate": 9.3,
+      "aboutGame": "Join Mario on a globe-trotting journey to rescue Princess Peach",
+      "PublisherCompany": "Nintendo"
+    },
+    {
+      "id": 5,
+      "Title": "God of War (2018)",
+      "Genre": "Action-Adventure",
+      "RelaseDate": "2018-04-20",
+      "IsAvailable": true,
+      "Director": "Cory Barlog",
+      "gameRate": 9.7,
+      "aboutGame": "Experience the epic adventures of Kratos and Atreus",
+      "PublisherCompany": "Santa Monica Studio"
+    },
+    {
+      "id": 6,
+      "Title": "Grand Theft Auto V",
+      "Genre": "Action-Adventure",
+      "RelaseDate": "2013-09-17",
+      "IsAvailable": true,
+      "Director": "Aaron Garbut",
+      "gameRate": 9.6,
+      "aboutGame": "Explore the open world of Los Santos in this crime-filled saga",
+      "PublisherCompany": "Rockstar Games"
+    },
+    {
+      "id": 7,
+      "Title": "Minecraft",
+      "Genre": "Sandbox",
+      "RelaseDate": "2011-11-18",
+      "IsAvailable": true,
+      "Director": "Markus Persson",
+      "gameRate":6.3,
+      "aboutGame": "Build and explore your own virtual world",
+      "PublisherCompany": "Mojang Studios"
+    },
+    {
+      "id": 8,
+      "Title": "The Last of Us Part II",
+      "Genre": "Action-Adventure",
+      "RelaseDate": "2020-06-19",
+      "IsAvailable": true,
+      "Director": "Neil Druckmann",
+      "gameRate": 9.7,
+      "aboutGame": "Survive in a post-apocalyptic world filled with infected creatures",
+      "PublisherCompany": "Naughty Dog"
+    },
+    {
+      "id": 9,
+      "Title": "Fallout 4",
+      "Genre": "Action-RPG",
+      "RelaseDate": "2015-11-10",
+      "IsAvailable": true,
+      "Director": "Todd Howard",
+      "gameRate": 9.2,
+      "aboutGame": "Navigate the wasteland and make choices that shape the future",
+      "PublisherCompany": "Bethesda Game Studios"
+    },
+    {
+      "id": 10,
+      "Title": "Assassin's Creed Valhalla",
+      "Genre": "Action-Adventure",
+      "RelaseDate": "2020-11-10",
+      "IsAvailable": true,
+      "Director": "Ashraf Ismail",
+      "gameRate": 9.1,
+      "aboutGame": "Embark on a Viking adventure in the age of the Dark Ages",
+      "PublisherCompany": "Ubisoft Montreal"
+    }
+  ],
+
+  "movies": [
+    {
+      "id": 1,
+      "Title": "Inception",
+      "Genre": "Sci-Fi",
+      "RelaseDate": "2010-07-16",
+      "IsAvailable": true,
+      "Director": "Christopher Nolan",
+      "Cast": "Leonardo DiCaprio, Joseph Gordon-Levitt"
+    },
+    {
+      "id": 2,
+      "Title": "The Shawshank Redemption",
+      "Genre": "Drama",
+      "RelaseDate": "1994-09-23",
+      "IsAvailable": true,
+      "Director": "Frank Darabont",
+      "Cast": "Tim Robbins, Morgan Freeman"
+    },
+    {
+      "id": 3,
+      "Title": "The Dark Knight",
+      "Genre": "Action",
+      "RelaseDate": "2008-07-18",
+      "IsAvailable": true,
+      "Director": "Christopher Nolan",
+      "Cast": "Christian Bale, Heath Ledger"
+    },
+    {
+      "id": 4,
+      "Title": "Pulp Fiction",
+      "Genre": "Crime",
+      "RelaseDate": "1994-10-14",
+      "IsAvailable": true,
+      "Director": "Quentin Tarantino",
+      "Cast": "John Travolta, Uma Thurman"
+    },
+    {
+      "id": 5,
+      "Title": "The Godfather",
+      "Genre": "Crime",
+      "RelaseDate": "1972-03-24",
+      "IsAvailable": true,
+      "Director": "Francis Ford Coppola",
+      "Cast": "Marlon Brando, Al Pacino"
+    },
+    {
+      "id": 6,
+      "Title": "Fight Club",
+      "Genre": "Drama",
+      "RelaseDate": "1999-10-15",
+      "IsAvailable": true,
+      "Director": "David Fincher",
+      "Cast": "Brad Pitt, Edward Norton"
+    },
+    {
+      "id": 7,
+      "Title": "The Matrix",
+      "Genre": "Sci-Fi",
+      "RelaseDate": "1999-03-31",
+      "IsAvailable": true,
+      "Director": "Lana Wachowski, Lilly Wachowski",
+      "Cast": "Keanu Reeves, Laurence Fishburne"
+    },
+    {
+      "id": 8,
+      "Title": "Forrest Gump",
+      "Genre": "Drama",
+      "RelaseDate": "1994-07-06",
+      "IsAvailable": true,
+      "Director": "Robert Zemeckis",
+      "Cast": "Tom Hanks, Robin Wright"
+    },
+    {
+      "id": 9,
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Genre": "Fantasy",
+      "RelaseDate": "2001-12-19",
+      "IsAvailable": true,
+      "Director": "Peter Jackson",
+      "Cast": "Elijah Wood, Ian McKellen"
+    },
+    {
+      "id": 10,
+      "Title": "The Avengers",
+      "Genre": "Action",
+      "RelaseDate": "2012-04-11",
+      "IsAvailable": true,
+      "Director": "Joss Whedon",
+      "Cast": "Robert Downey Jr., Chris Evans"
+    }
+  ],
+
+  "customers": [
+    {
+      "Id": 1,
+      "name": "John Smith",
+      "email": "johnsmith@example.com",
+      "phone": "1234567890",
+      "address": "123 Main Street",
+      "rentals":null
+    },
+    {
+      "Id": 2,
+      "name": "Emily Johnson",
+      "email": "emilyjohnson@example.com",
+      "phone": "9876543210",
+      "address": "456 Oak Avenue",
+      "rentals": null
+    },
+    {
+      "Id": 3,
+      "name": "Michael Brown",
+      "email": "michaelbrown@example.com",
+      "phone": "5555555555",
+      "address": "789 Elm Street",
+      "rentals": null
+    }
+  ]
+}

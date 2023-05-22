@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Date;
@@ -93,26 +93,31 @@ public class RentalStore
         Rental Rental=new Rental(book,customer,i);
     }
 
-    public void addMovie(String title, String genre, String director, String cast, Date date, int id)
+    public void rentitem(Item item,Customer customer)
+    {
+        Rental rentals=new Rental(item,customer);
+    }
+
+    public void addMovie(String title, String genre, String director, String cast, Date date, int id,boolean isAvailable)
     {
 
-        Movie movie=new Movie(title, genre, director, date, cast, id);
+        Movie movie=new Movie(title, genre, director, date, cast, id,isAvailable);
 
         movies.add(movie);
 
     }
 
-    public void addGame(int id, String title, String genre, Date relaseDate, String publisherCompany, ArrayList<String> platforms)
+    public void addGame(int id, String title, String genre, Date relaseDate, String publisherCompany,String aboutGame,boolean isAvailable)
     {
-        Game game=new Game(id, title, genre, relaseDate, publisherCompany, platforms);
+        Game game=new Game(id, title, genre, relaseDate, publisherCompany,aboutGame,isAvailable);
 
         games.add(game);
 
     }
 
-    public void addBook(int id, String title, String genre, Data relaseDate, String publisher,String author)
+    public void addBook(int id, String title, String genre, Data relaseDate, String publisher,String author,boolean isAvailable)
     {
-        Book book=new Book(id, title, genre, relaseDate, publisher, author);
+        Book book=new Book(id, title, genre, relaseDate, publisher, author,isAvailable);
 
        books.add(book);
     }

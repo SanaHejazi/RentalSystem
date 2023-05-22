@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 import java.util.Date;
 
 public class Rental
@@ -6,6 +6,7 @@ public class Rental
     private int Id;
     private Movie Movie;
     private Game Game;
+    private Item item;
     private Book Book;
     private Customer Customer;
     private Date RentalDate;
@@ -32,6 +33,12 @@ public class Rental
         Customer=customer;
         Id=id;
         game.setAvailable(false);
+    }
+
+    public Rental(Item item,Customer customer)
+    {
+        this.item=item;
+        Customer=customer;
     }
 
     public int getId() {

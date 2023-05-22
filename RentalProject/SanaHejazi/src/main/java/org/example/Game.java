@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 import javax.xml.crypto.Data;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -10,14 +10,16 @@ public class Game extends Item
 {
 
     String PublisherCompany;
-    ArrayList<String> platforms=new ArrayList<String>();
+    //ArrayList<String> platforms=new ArrayList<String>();
+    String aboutGame;
 
 
-    public Game(int id, String title, String genre, Date relaseDate,String publisherCompany,ArrayList<String> platforms)
+    public Game(int id, String title, String genre, Date relaseDate,String publisherCompany,String aboutGame,boolean isAvailable)
     {
-        super(id, title, genre, (Date) relaseDate);
+        super(id, title, genre, (Date) relaseDate,isAvailable);
         PublisherCompany=publisherCompany;
-        this.platforms=platforms;
+        this.aboutGame=aboutGame;
+
     }
     public void rentGame(Game game, Customer customer, int i)
     {
